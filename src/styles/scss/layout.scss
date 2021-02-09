@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+
+body {
+    background-color: $background-color;
+    font-family: $primary-font-stack;
+}
+
+.hidden {
+    display: none;
+}
