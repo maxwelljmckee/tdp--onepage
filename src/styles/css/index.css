@@ -116,5 +116,37 @@ body {
     transform: rotate(180deg);
   }
 }
+.hero__container {
+  width: 100vw;
+  height: 100vh;
+}
+.hero__container .hero__flex {
+  height: 80%;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__container img {
+  width: 450px;
+}
+.hero__container .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.hero__container .hero__text div {
+  padding: 12px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Monserrat", sans-serif;
+  color: #1761a0;
+  letter-spacing: 2.5px;
+  text-shadow: 1, 1, #1761a0;
+}
 
 /*# sourceMappingURL=index.css.map */
