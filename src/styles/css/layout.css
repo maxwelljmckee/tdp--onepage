@@ -7,4 +7,18 @@ body {
   display: none;
 }
 
+.header {
+  padding: 40px;
+  font-size: 50px;
+  font-family: "Monserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.header .light {
+  color: white;
+}
+.header .dark {
+  color: #272341;
+}
+
 /*# sourceMappingURL=layout.css.map */

@@ -9,3 +9,20 @@ body {
 .hidden {
     display: none;
 }
+
+.header {
+    padding: 40px;
+    font-size: 50px;
+    font-family: $primary-font-stack;
+    text-transform: uppercase;
+    text-align: center;
+
+    .light {
+        color: white;
+        // color: $title-light;
+    }
+
+    .dark {
+        color: $title-dark;
+    }
+}
