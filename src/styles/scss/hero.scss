@@ -15,27 +15,46 @@
     }
 
     img {
-        width: 450px;
+        width: 420px;
     }
 
-    .hero-text {
+    .hero__text {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         
         height: 300px;
+        position: relative;
+        bottom: 40px;
     }
     
     .hero__text div {
-        padding: 12px;
+        padding: 22px;
         text-align: center;
         font-size: 2em;
-        font-family: $primary-font-stack;
-        color: $primary-color;
+        font-family: $secondary-font-stack;
+        color: rgb(41, 118, 185);
         letter-spacing: 2.5px;
         text-shadow: 1, 1, $primary-color;
     }
     
+    .learn-more-btn {
+        padding: 15px 25px;
+        border: 1px solid rgb(41, 118, 185);
+        border-radius: 4px;
+        color: $primary-color;
+        // text-transform: uppercase;
+        font-family: $secondary-font-stack;
+        font-size: 1.3em;
 
+        position: relative;
+        bottom: 30px;
+    }
+
+    .learn-more-btn:hover {
+        background-color: $primary-color;
+        color: $background-color;
+        cursor: pointer;
+    }
 }

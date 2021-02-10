@@ -12,23 +12,40 @@
   align-items: center;
 }
 .hero__container img {
-  width: 450px;
+  width: 420px;
 }
-.hero__container .hero-text {
+.hero__container .hero__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 300px;
+  position: relative;
+  bottom: 40px;
 }
 .hero__container .hero__text div {
-  padding: 12px;
+  padding: 22px;
   text-align: center;
   font-size: 2em;
-  font-family: "Monserrat", sans-serif;
-  color: #1761a0;
+  font-family: "Cinzel", serif;
+  color: #2976b9;
   letter-spacing: 2.5px;
   text-shadow: 1, 1, #1761a0;
+}
+.hero__container .learn-more-btn {
+  padding: 15px 25px;
+  border: 1px solid #2976b9;
+  border-radius: 4px;
+  color: #1761a0;
+  font-family: "Cinzel", serif;
+  font-size: 1.3em;
+  position: relative;
+  bottom: 30px;
+}
+.hero__container .learn-more-btn:hover {
+  background-color: #1761a0;
+  color: #ebf7ff;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=hero.css.map */

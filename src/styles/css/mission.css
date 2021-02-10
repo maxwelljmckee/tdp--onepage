@@ -1,0 +1,15 @@
+.mission__container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #1761a0, #4e95d3);
+}
+.mission__container header {
+  color: white;
+  padding: 40px;
+  font-size: 50px;
+  font-family: "Monserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*# sourceMappingURL=mission.css.map */

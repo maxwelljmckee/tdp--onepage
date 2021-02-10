@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+
+.mission__container {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(135deg, $primary-color, $primary-color-fade);
+    // background-color: $primary-color;
+
+    header {
+        color: white;
+        padding: 40px;
+        font-size: 50px;
+        font-family: $primary-font-stack;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
