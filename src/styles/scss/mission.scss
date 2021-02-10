@@ -5,6 +5,26 @@
     width: 100vw;
     min-height: 100vh;
     background: linear-gradient(135deg, $primary-color, $primary-color-fade);
+    padding-bottom: 30px;
+
+    // .flex-container {
+    //     display: flex;
+    //     margin: 0 auto;
+    // }
+
+    // .flex-left {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    // }
+    
+    // .flex-right {
+    //     width: 500px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    // }
+
 
     .grid {
         display: grid;
@@ -15,40 +35,47 @@
             'left-3 right-3'
             'left-4 right-4';
 
-        width: 800px;
+        width: 900px;
         margin: 0 auto;
     }
 
+    .grid-left,
+    .grid-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .grid-left-1 {
-        grid-area: 'left-1';
+        grid-area: left-1;
     }
 
     .grid-left-2 {
-        grid-area: 'left-2';
+        grid-area: left-2;
     }
 
     .grid-left-3 {
-        grid-area: 'left-3';
+        grid-area: left-3;
     }
 
     .grid-left-4 {
-        grid-area: 'left-4';
+        grid-area: left-4;
     }
 
     .grid-right-1 {
-        grid-area: 'right-1';
+        grid-area: right-1;
     }
 
     .grid-right-2 {
-        grid-area: 'right-2';
+        grid-area: right-2;
     }
 
     .grid-right-3 {
-        grid-area: 'right-3';
+        grid-area: right-3;
     }
 
     .grid-right-4 {
-        grid-area: 'right-4';
+        grid-area: right-4;
     }
 
     .mission__icon {
@@ -60,24 +87,30 @@
         width: 220px;
         border-radius: 50%;
     }
+    
+    .mission__icon img {
+        background-color: $background-color;
+        box-shadow: $box-shadow;
+    }
 
 }
 
 
 .mission__card {
     width: 100%;
-    margin: 28px 0;
-    border-radius: 20px;
+    margin: 8px 0;
+    box-shadow: $box-shadow;
     
     header {
         box-sizing: border-box;
         min-height: 40px;
         width: 100%;
-        padding: 8px;
+        padding: 10px;
         background-color: $secondary-color;
         text-align: center;
         text-transform: uppercase;
-        line-height: 1.2rem;
+        font-size: 21px;
+        line-height: 1.6rem;
         color: white;
 
         display: flex;
@@ -87,7 +120,22 @@
 
     div {
         background-color: $background-color;
-        line-height: 1.3rem;
+        line-height: 1.5rem;
         padding: 10px 18px;
+        font-size: 15px;
     }
+}
+
+
+.down-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-arrow-circle-down {
+    font-size: 80px;
+    color: $background-color;
+    margin: 40px;
+    cursor: pointer;
 }
