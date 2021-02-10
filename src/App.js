@@ -4,6 +4,8 @@ import { Fade, Rubberband, Zoom, Bounce } from 'react-reveal';
 import Loader from './components/Loader/Loader';
 import Hero from './components/Hero/Hero';
 import Mission from './components/Mission/Mission';
+import Banner from './components/Banner/Banner';
+import Demo from './components/Demo/Demo';
 
 function App() {
   const [hide, setHide] = useState(true);
@@ -36,6 +38,8 @@ function App() {
         <>
           <Hero />
           <Mission />
+          <Banner text='Getting Involved Has Never Been Easier' />
+          <Demo />
         </>
       }
     </>

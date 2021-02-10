@@ -6,7 +6,7 @@ export default [
   },
   {
     title: 'Why are there so many roadblocks to civic engagement?',
-    text: "In a world where we all walk around with computers in out pockets, there's no reason why it should be so hard to get involved. Instead of digging around the internet searching for your representatives and their contacts, The Democracy Project offers you all their information in one centralized hub. When you register, you are automatically connected with your state and district representatives, giving you easy access to all of their socials and contacts. You can follow other representatives too, track how they're voting, and weigh in with realtime approval ratings!",
+    text: "In a world where we all have computers in out pockets, there's no reason why it should be so hard to get involved. Instead of digging around the internet searching for your representatives and their contacts, The Democracy Project offers you all their information in one central hub. When you register, you are automatically connected with your state and district representatives, giving you easy access to all of their socials and contacts. You can follow other representatives too, track how they're voting, and weigh in with realtime approval ratings!",
     id: 2
   },
   {

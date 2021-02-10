@@ -5,30 +5,11 @@
     width: 100vw;
     min-height: 100vh;
     background: linear-gradient(135deg, $primary-color, $primary-color-fade);
-    padding-bottom: 30px;
-
-    // .flex-container {
-    //     display: flex;
-    //     margin: 0 auto;
-    // }
-
-    // .flex-left {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: space-between;
-    // }
-    
-    // .flex-right {
-    //     width: 500px;
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: space-between;
-    // }
-
+    padding: 50px 0;
 
     .grid {
         display: grid;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 1fr 3fr;
         grid-template-areas: 
             'left-1 right-1'
             'left-2 right-2'
@@ -79,7 +60,7 @@
     }
 
     .mission__icon {
-        margin: 22px auto;
+        margin: 22px;
     }
     
     .mission__icon,
@@ -96,9 +77,11 @@
 }
 
 
+
+
 .mission__card {
     width: 100%;
-    margin: 8px 0;
+    margin: 10px 0;
     box-shadow: $box-shadow;
     
     header {
@@ -125,6 +108,7 @@
         font-size: 15px;
     }
 }
+
 
 
 .down-arrow {

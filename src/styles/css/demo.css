@@ -1,0 +1,12 @@
+.demo__card {
+  width: 800px;
+  margin: 0 auto;
+}
+.demo__card img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: #ebf7ff;
+}
+
+/*# sourceMappingURL=demo.css.map */

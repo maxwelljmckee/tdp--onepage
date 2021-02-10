@@ -16,13 +16,26 @@ body {
     font-family: $primary-font-stack;
     text-transform: uppercase;
     text-align: center;
-
+    
     .light {
         color: white;
         // color: $title-light;
     }
-
+    
     .dark {
         color: $title-dark;
     }
+}
+
+.banner {
+    color: $title-dark;
+    text-shadow: 0 0 5px rgba(50, 50, 50, 0.4);
+    padding: 120px;
+    font-size: 50px;
+    font-family: $primary-font-stack;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 2em;
 }

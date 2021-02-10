@@ -21,4 +21,17 @@ body {
   color: #272341;
 }
 
+.banner {
+  color: #272341;
+  text-shadow: 0 0 5px rgba(50, 50, 50, 0.4);
+  padding: 120px;
+  font-size: 50px;
+  font-family: "Monserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 2em;
+}
+
 /*# sourceMappingURL=layout.css.map */

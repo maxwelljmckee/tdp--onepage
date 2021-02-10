@@ -45,11 +45,11 @@ const Mission = () => {
               )
             })}
       </div>
-      {/* <div className='down-arrow'>
-        <Link to='demos' smooth duration={1000}>
+      <div className='down-arrow'>
+        <Link to='banner' smooth duration={1000}>
           <i className="fas fa-arrow-circle-down"></i>
         </Link>
-      </div> */}
+      </div>
     </section>
   )
 }
