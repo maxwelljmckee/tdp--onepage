@@ -30,7 +30,8 @@ body {
 .banner {
     color: $title-dark;
     text-shadow: 0 0 5px rgba(50, 50, 50, 0.4);
-    padding: 120px;
+    padding-top: 100px;
+    padding-bottom: 0;
     font-size: 50px;
     font-family: $primary-font-stack;
     text-transform: uppercase;

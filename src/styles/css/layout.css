@@ -24,7 +24,8 @@ body {
 .banner {
   color: #272341;
   text-shadow: 0 0 5px rgba(50, 50, 50, 0.4);
-  padding: 120px;
+  padding-top: 100px;
+  padding-bottom: 0;
   font-size: 50px;
   font-family: "Monserrat", sans-serif;
   text-transform: uppercase;
