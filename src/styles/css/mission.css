@@ -1,8 +1,9 @@
 .mission__container {
   width: 100vw;
   min-height: 100vh;
-  background: linear-gradient(135deg, #1761a0, #4e95d3);
+  background: linear-gradient(135deg, #1761a0, #59a0df);
   padding: 50px 0;
+  padding-bottom: 100px;
 }
 .mission__container .grid {
   display: grid;
@@ -43,6 +44,7 @@
 }
 .mission__container .mission__icon {
   margin: 22px;
+  margin-right: 40px;
 }
 .mission__container .mission__icon,
 .mission__container .mission__icon img {
@@ -56,7 +58,7 @@
 
 .mission__card {
   width: 100%;
-  margin: 10px 0;
+  margin: 10px 20px;
   box-shadow: 0 0 16px 0 rgba(54, 54, 54, 0.4);
 }
 .mission__card header {
@@ -86,12 +88,14 @@
   justify-content: center;
   align-items: center;
 }
-
-.fa-arrow-circle-down {
+.down-arrow .fa-arrow-circle-down {
   font-size: 80px;
   color: #ebf7ff;
   margin: 40px;
   cursor: pointer;
+}
+.down-arrow .dark {
+  color: #1761a0;
 }
 
 /*# sourceMappingURL=mission.css.map */

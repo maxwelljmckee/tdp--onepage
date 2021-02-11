@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade, Bounce } from 'react-reveal';
+import { Link } from 'react-scroll';
 
 import number1 from '../../static/1-icon.png';
 import number2 from '../../static/2-icon.png';
@@ -50,6 +51,11 @@ const Demo = () => {
                 <Fade right delay={1200} distance='50px'>
                     <img className='demo__gif' src={voteAndComment} alt='Votes and Comments' />
                 </Fade>
+            </div>
+            <div className='down-arrow'>
+                <Link to='meetDev' smooth duration={1000}>
+                    <i className="fas fa-arrow-circle-down dark"></i>
+                </Link>
             </div>
         </section>
     )

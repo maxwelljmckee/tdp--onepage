@@ -1,0 +1,81 @@
+.meet-dev__container {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px 0;
+  background: linear-gradient(150deg, #ff7373, #eb2626);
+}
+.meet-dev__container .flex {
+  width: 900px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.meet-dev__flex-1 {
+  display: flex;
+  flex-direction: column;
+}
+.meet-dev__flex-1 img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 0 16px 0 rgba(54, 54, 54, 0.4);
+}
+
+.meet-dev__flex-2 {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meet-dev__flex-2 .name {
+  align-self: flex-start;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 20px;
+}
+.meet-dev__flex-2 .about {
+  color: white;
+  font-size: 17px;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+.meet-dev__flex-2 .about p {
+  margin-bottom: 14px;
+}
+.meet-dev__flex-2 .buttons {
+  margin-top: 20px;
+  width: 430px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.meet-dev__flex-2 .button {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  text-decoration: none;
+  color: #ec4c4c;
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.meet-dev__flex-2 .socials {
+  margin-top: 35px;
+  width: 430px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.meet-dev__flex-2 .socials a i {
+  font-size: 50px;
+  color: white;
+}
+
+/*# sourceMappingURL=meet-dev.css.map */

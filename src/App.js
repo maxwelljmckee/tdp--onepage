@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import Mission from './components/Mission/Mission';
 import Banner from './components/Banner/Banner';
 import Demo from './components/Demo/Demo';
+import MeetDev from './components/MeetDev/MeetDev';
 
 function App() {
   const [hide, setHide] = useState(true);
@@ -40,6 +41,7 @@ function App() {
           <Mission />
           <Banner text='Getting Involved Has Never Been Easier' />
           <Demo />
+          <MeetDev />
         </>
       }
     </>

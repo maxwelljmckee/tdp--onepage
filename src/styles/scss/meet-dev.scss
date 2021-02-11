@@ -1,0 +1,97 @@
+@import './variables.scss';
+
+
+.meet-dev__container {
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px 0;
+    background: linear-gradient(150deg, $secondary-color-fade, $secondary-color);
+
+    .flex {
+        width: 900px;
+        margin: 50px auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.meet-dev__flex-1 {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: $box-shadow;
+    }
+    
+}
+
+.meet-dev__flex-2 {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .name {
+        align-self: flex-start;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        color: white;
+        font-size: 17px;
+        line-height: 1.4em;
+        letter-spacing: 1px;
+
+        p {
+            margin-bottom: 14px;
+        }
+    }
+
+    .buttons {
+        margin-top: 20px;
+        width: 430px;
+    
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    
+    .button {
+        height: 38px;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        text-decoration: none;
+        color: $middle-red;
+        background-color: white;
+
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
+    
+    .socials {
+        margin-top: 35px;
+        width: 430px;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a i {
+            font-size: 50px;
+            color: white;
+        }
+    }
+}
