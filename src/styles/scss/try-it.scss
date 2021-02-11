@@ -1,0 +1,43 @@
+@import './variables.scss';
+
+
+.try-it__container {
+    width: 1000px;
+    margin: 50px auto;
+    margin-bottom: 130px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+    img {
+        width: 460px;
+
+        border-radius: 8px;
+        box-shadow: $box-shadow;
+    }
+
+    .about {
+        width: 450px;
+        padding: 33px 25px;
+        box-sizing: border-box;
+
+        font-size: 20px;
+        color: $title-dark;
+        background-color: white;
+        box-shadow: $box-shadow-light;
+        border-radius: 8px;
+        line-height: 1.5em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    a {
+        color: $primary-color;
+        font-weight: 400;
+    }
+}

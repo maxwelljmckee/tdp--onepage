@@ -16,6 +16,23 @@
         justify-content: space-between;
         align-items: flex-start;
     }
+
+    .back-to-top {
+        width: 140px;
+        margin: 0 auto;
+        color: white;
+        font-size: 22px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        i, span {
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+    }
 }
 
 .meet-dev__flex-1 {
@@ -44,6 +61,7 @@
         font-size: 35px;
         color: white;
         margin-bottom: 20px;
+        font-family: $primary-font-stack;
     }
 
     .about {

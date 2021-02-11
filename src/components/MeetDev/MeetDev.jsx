@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
+import { Link } from 'react-scroll';
 
 import Header from '../Header/Header';
 
@@ -29,11 +30,11 @@ const MeetDev = () => {
                     </Fade>
                     <Fade right delay={1200} distance='50px'>
                         <div className='buttons'>
-                            <a target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vTCSZxmPXuHjO77nt3JC6Y_zMOj1VU-b-e7TfhtQWE6kkfoc9thgg3bYZ6Qp18FQVDgUycc8bYCx7fy/pub' className='button'>
-                                Resume
-                            </a>
                             <a target='_blank' href='https://mmckee-dev.com/' className='button'>
                                 Portfolio
+                            </a>
+                            <a target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vTCSZxmPXuHjO77nt3JC6Y_zMOj1VU-b-e7TfhtQWE6kkfoc9thgg3bYZ6Qp18FQVDgUycc8bYCx7fy/pub' className='button'>
+                                Resume
                             </a>
                         </div>
                     </Fade>
@@ -49,6 +50,16 @@ const MeetDev = () => {
                     </Fade>
                 </div>
             </div>
+            <Fade bottom delay={1600} distance='30px'>
+                <div className='back-to-top'>
+                    <Link to='hero' smooth duration={2000}>
+                        <i class="fas fa-angle-double-up"></i>
+                    </Link>
+                    <Link to='hero' smooth duration={2000}>
+                        <span>Back to Top</span>
+                    </Link>
+                </div>
+            </Fade>
         </section>
     )
 }

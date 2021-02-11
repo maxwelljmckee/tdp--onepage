@@ -4,6 +4,7 @@
 body {
     background-color: $background-color;
     font-family: $primary-font-stack;
+    font-weight: 200
 }
 
 .hidden {
@@ -16,6 +17,7 @@ body {
     font-family: $primary-font-stack;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 2.5px;
     
     .light {
         color: white;
@@ -29,7 +31,7 @@ body {
 
 .banner {
     color: $title-dark;
-    text-shadow: 0 0 5px rgba(50, 50, 50, 0.4);
+    text-shadow: 0 0 2px rgba(50, 50, 50, 0.4);
     padding-top: 100px;
     padding-bottom: 0;
     font-size: 50px;
@@ -39,4 +41,5 @@ body {
     max-width: 700px;
     margin: 0 auto;
     line-height: 2em;
+    letter-spacing: 2.5px;
 }

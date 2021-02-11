@@ -52,11 +52,11 @@ const Demo = () => {
                     <img className='demo__gif' src={voteAndComment} alt='Votes and Comments' />
                 </Fade>
             </div>
-            <div className='down-arrow'>
+            {/* <div className='down-arrow'>
                 <Link to='meetDev' smooth duration={1000}>
                     <i className="fas fa-arrow-circle-down dark"></i>
                 </Link>
-            </div>
+            </div> */}
         </section>
     )
 }

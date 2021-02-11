@@ -10,7 +10,9 @@ import missionData from './missionData';
 const Mission = () => {
   return (
     <section id='mission' className='mission__container'>
-      <Header title='about' light />
+      <Fade delay={300}>
+        <Header title='about' light />
+      </Fade>
       <div className='grid'>
             <div className='mission__icon grid-left grid-left-1'>
               <Bounce delay={500}>
@@ -45,11 +47,11 @@ const Mission = () => {
               )
             })}
       </div>
-      <div className='down-arrow'>
+      {/* <div className='down-arrow'>
         <Link to='banner' smooth duration={1000}>
           <i className="fas fa-arrow-circle-down"></i>
         </Link>
-      </div>
+      </div> */}
     </section>
   )
 }

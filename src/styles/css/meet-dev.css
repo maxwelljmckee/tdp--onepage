@@ -12,6 +12,20 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.meet-dev__container .back-to-top {
+  width: 140px;
+  margin: 0 auto;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meet-dev__container .back-to-top i, .meet-dev__container .back-to-top span {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
 
 .meet-dev__flex-1 {
   display: flex;
@@ -37,6 +51,7 @@
   font-size: 35px;
   color: white;
   margin-bottom: 20px;
+  font-family: "Monserrat", sans-serif;
 }
 .meet-dev__flex-2 .about {
   color: white;
