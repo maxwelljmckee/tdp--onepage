@@ -23,8 +23,10 @@
   align-items: center;
 }
 .meet-dev__container .back-to-top i, .meet-dev__container .back-to-top span {
-  margin-bottom: 8px;
   cursor: pointer;
+}
+.meet-dev__container .back-to-top i {
+  padding-bottom: 8px;
 }
 
 .meet-dev__flex-1 {

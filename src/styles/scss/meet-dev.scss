@@ -29,8 +29,10 @@
         align-items: center;
 
         i, span {
-            margin-bottom: 8px;
             cursor: pointer;
+        }
+        i {
+            padding-bottom: 8px;
         }
     }
 }
