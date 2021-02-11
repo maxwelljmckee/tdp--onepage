@@ -45,7 +45,7 @@ const Demo = () => {
                         <img src={number3} alt='3'></img>
                     </Bounce>
                     <Fade left delay={650} distance='50px'>
-                        <div className='demo__description'>Weigh in with on the people and the issues with realtime approval ratings and one-click contacts</div>
+                        <div className='demo__description'>Weigh in on the people and the issues with realtime approval ratings and one-click contacts</div>
                     </Fade>
                 </div>
                 <Fade right delay={1200} distance='50px'>
