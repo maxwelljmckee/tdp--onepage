@@ -9,6 +9,8 @@
 }
 .try-it__container img {
   width: 460px;
+  height: 322px;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 16px 0 rgba(54, 54, 54, 0.4);
 }

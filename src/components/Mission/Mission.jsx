@@ -37,9 +37,8 @@ const Mission = () => {
 
             { missionData.map(mission => {
               return (
-                <div className='grid-right'>
+                <div key={`mission-${mission.id}`} className='grid-right'>
                   <Fade right delay={mission.id * 100 + 700}>
-                    
                     <MissionCard title={mission.title} text={mission.text} 
                       id={mission.id} />
                   </Fade>

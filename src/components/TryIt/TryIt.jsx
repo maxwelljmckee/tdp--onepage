@@ -1,14 +1,15 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 
-import mockup from '../../static/lisa-murk.jpg';
+import Carousel from './Carousel'
 
 
 const TryIt = () => {
     return (
         <section id='tryIt' className='try-it__container'>
             <Fade left delay={500}>
-                <img src={mockup} alt='Lisa Murkowski' />
+                {/* <img src={mockup} alt='Lisa Murkowski' /> */}
+                <Carousel />
             </Fade>
             <Fade right delay={700}>
                 <div className='about'>
