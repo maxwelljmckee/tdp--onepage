@@ -46,6 +46,9 @@ const MeetDev = () => {
                             <a target='_blank' href='https://angel.co/u/maxwell-mckee'>
                                 <i className="fab fa-angellist"></i>
                             </a>
+                            <a target='_blank' href='https://github.com/maxwelljmckee'>
+                                <i className="fab fa-github"></i>
+                            </a>
                         </div>
                     </Fade>
                 </div>

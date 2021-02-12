@@ -19,7 +19,7 @@
 
     .back-to-top {
         width: 140px;
-        margin: 0 auto;
+        margin: 80px auto;
         color: white;
         font-size: 22px;
 
@@ -112,6 +112,10 @@
         a i {
             font-size: 50px;
             color: white;
+        }
+
+        a:focus {
+            outline: none;
         }
     }
 }

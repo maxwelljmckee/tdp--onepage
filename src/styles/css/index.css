@@ -392,7 +392,7 @@ body {
 }
 .meet-dev__container .back-to-top {
   width: 140px;
-  margin: 0 auto;
+  margin: 80px auto;
   color: white;
   font-size: 22px;
   display: flex;
@@ -471,6 +471,9 @@ body {
 .meet-dev__flex-2 .socials a i {
   font-size: 50px;
   color: white;
+}
+.meet-dev__flex-2 .socials a:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=index.css.map */
